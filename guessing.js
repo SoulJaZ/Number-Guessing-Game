@@ -39,7 +39,7 @@ function mensajesBienvenida() {
 }
 
 // Función que solicita al usuario elegir la dificultad del juego.
-function seleccionarDificultad() {
+function seleccionarDificultad(callback) {
   // Dificultades.
   console.log("Seleccione un nivel de dificultad.");
   console.log("1. Fácil (10 intentos)");
